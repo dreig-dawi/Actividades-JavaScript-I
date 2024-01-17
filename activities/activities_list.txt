@@ -1,0 +1,62 @@
+Actividades Javascript I
+1.- Crea una página web que pida un número al usuario. Haz que la web indique si
+realmente es un número lo que introdujo el usuario.
+2.- Crea una página web que pida al usuario dos números y que muestre el mayor de los
+dos.
+3.- Crea una página web que pida al usuario el nombre, el salario y la edad de una persona.
+Luego muestra el nombre, la edad y el salario recalculado de la siguiente manera. Si el
+salario es superior a 2000 euros no cambiará. Si el salario está entre 1000 y 2000 euros,
+ambos incluidos, subirá un 3% si la edad es superior a 45 años y un 10% si la edad es
+inferior. Si el salario es menor que 1000 euros si son menores de 30 años cobrarán
+exactamente 1100 euros, si son mayoes de 45 años se sube un 15% y si la edad está entre
+30 y 45 años, ambas incluidas, el salario subirá un 3%.
+4.- Crea una web que calcule aleatoriamente un número del 1 al 100. Luego pregunte al
+usuario por el número mientras no acierte. Si el número escrito es el correcto indicará que
+ha acertado y terminará el juego. Si el número indicado por el usuario es mayor que el
+elegido entonces indicará “El número es menor”. Si el número indicado por el usuario es
+menor que el elegido entonces indicará “El número es mayor”. Si el usuario introduce algo
+que no es un número indicará “No me times”.
+5.- Crea una página web cómo la anterior añadiendo que sólo se puedan tener 5 intentos.
+6.- Crea una página web que pida al usuario un entero positivo (mayor que 0). Si lo que
+escribe el usuario no es un entero positivo entonces vuelve a preguntar el número. Si
+escribe un entero positivo muestra un triangulo de asteriscos.
+Ej: El usuario indica 5 y el resultado es:
+*****
+****
+***
+**
+*
+
+7.- Crea una página web que haga lo mismo que el anterior pero con el triángulo invertido.
+Ej: El usuario indica 5 y el resultado es:
+*
+**
+***
+****
+*****
+
+8.- Crea una página web que haga lo mismo que el anterior pero con el triángulo centrado.
+
+Ej: El usuario indica 5 y el resultado es:
+
+*
+* *
+* * *
+* * * *
+* * * * *
+
+9.- Crea una página web que haga lo mismo que el anterior pero con el triángulo centrado e
+invertido.
+Ej: El usuario indica 5 y el resultado es:
+* * * * *
+* * * *
+* * *
+* *
+*
+
+10.- Crea una página web que muestre una caja en el centro con un color de fondo aleatorio
+cada vez que entremos en ella. Investiga cómo se usa Math.random().
+11.- Crea una página web que muestre 2000 cuadrados con un color de fondo aleatorio de
+50x50 píxels. La posición en la página también debe ser aleatoria.
+12.- Crea una aplicación que muestre cincuenta combinaciones para jugar a la lotería
+primitiva. Ten en cuenta que no se pueden repetir los números en una misma combinación.

@@ -1,0 +1,23 @@
+body
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 80%;
+    margin-left: 10%;
+    flex-wrap: wrap;
+}
+div
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#resultado
+{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 44px;
+    width: 100%;
+}

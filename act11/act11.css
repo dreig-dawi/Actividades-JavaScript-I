@@ -1,0 +1,13 @@
+:root {
+    --color: 00;
+    --posicion_top: 0;
+    --posicion_left: 0;
+}
+div
+{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+}
+body
+{height: 100%;}

@@ -4,15 +4,6 @@ var minas = 0;
 var intento = false;
 var ganador = 0;
 
-//Creamos el array de las celdas
-var columnas = 20;
-var filas = 20;
-var lista = [];
-for (var h = 0; h < columnas; h++)
-{
-    lista[h] = new Array(filas);
-}
-
 //Introducimos filas
 for (let i = 0; i < 7; i++)
 {

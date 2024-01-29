@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>bmicalculator.com</title>
+        <link rel="icon" type="image/x-icon" href="./logo.png">
+        <link rel="stylesheet" type="text/css" href="./imc.css">
+        <meta name="description" content="Includes calculator of the BMI, some information about healthy habit such as alimentation and exercise.">
+        <meta name="author" content="Dario Reig Buades">
+        <meta name="keywords" content="BMI, exercise, alimentation.">
+    </head>
+    <body>
+        <form>
+            <label name="n_weight"><b>Introduce your weight (kilograms):</b></label>
+            <input id="weight" name="n_weight" type="number">
+
+            <br>
+            <label name="n_height"><b>Introduce your height (centimeters):</b></label>
+            <input id="height" name="n_height" type="number">
+            <br>
+            <input class="button-arounder" type="button" value="Calculate IMC" onclick="bmi();">
+            <input class="button-arounder" type="button" value="Show history" onclick="print_history();">
+            <input class="button-arounder" type="button" value="Reset history" onclick="localStorage.clear(); location.reload();">
+        </form>
+        <div id="formula_container">
+            <div id="Title"><b>Formula BMI:</b></div>
+            <div id="formula">
+                <div id="top"><b>Weight</b></div>
+                <hr>
+                <div id="bottom"><b>Height x Height</b></div>
+            </div>
+        </div>
+        <div id="result">
+            <div id="imc_video">                
+                <div id="imc_result">                
+                    <img id="bmi_img" width="125px">
+                    <div id="bmi_value"></div>
+                </div>
+                <hr id="vertical">
+                <div id="videos">
+                    <video id="video" controls></video>
+                </div>
+            </div>
+            <div id="result_info"></div>
+        </div>
+        <div id="history"></div>
+        <script src="imc.js"></script>
+    </body>
+</html>
